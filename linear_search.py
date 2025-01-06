@@ -19,7 +19,7 @@ def linear_search(cards: List[int], query: int)-> int:
     return -1
 
 def main()-> None:
-    cards: List[int] = map(int,input("List integers in descending order separated by whitespace: ").split(" "))
+    cards: List[int] = list(map(int,input("List integers in descending order separated by whitespace: ").split(" ")))
     query: int = int(input("Query: "))
     position: int = linear_search(cards=cards, query=query)
     print(f"The position of {query} is {position}")

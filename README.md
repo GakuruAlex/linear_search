@@ -86,3 +86,16 @@ The position of the given number in the list i.e 7 (position of 2 in above list 
                 "output": 1
         }
     ]
+# Assumption #
+
+List of numbers is sorted in descending order.
+
+Query is an integer.
+
+List contains only integers.
+
+# Time Complexity #
+
+Time taken for the worst case scenario i.e number located at the end of the list.
+
+    O(n)

@@ -94,6 +94,8 @@ Query is an integer.
 
 List contains only integers.
 
+Position means index of the query.
+
 # Time Complexity #
 
 Time taken for the worst case scenario i.e number located at the end of the list.
